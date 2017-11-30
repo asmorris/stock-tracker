@@ -10,12 +10,16 @@ end
 gem 'rails', '~> 5.1.4'
 # Use Devise for login and authentification purposes
 gem 'devise'
+# Using jQuery
+gem 'jquery-rails'
 #Use bootstrap for quick styling
 gem 'twitter-bootstrap-rails'
 # Use bootstrap views for devise
 gem 'devise-bootstrap-views'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+# Stock ticker to get the stocks
+gem 'stock_quote', '~> 1.5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
