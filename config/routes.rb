@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'friendships/destroy'
+
   devise_for :users, :controllers => { :registrations => "user/registrations" }
   root 'welcome#index'
 
